@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – RBK GROUPE</title>
+    <meta name="description" content="Contactez RBK Groupe, holding fédérant cinq filiales d'excellence. Notre équipe vous répond sous 24h.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+    <a href="index.html" class="logo-container">
+        <img src="logo.png" alt="RBK Groupe" class="rbk-logo-img">
+    </a>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li class="nav-dropdown" id="servicesDropdown">
+                <a href="#">Nos filiales <i class="fa-solid fa-chevron-down dropdown-arrow"></i></a>
+                <div class="dropdown-menu">
+                    <a href="index.html#service-security">
+                        <span class="service-icon"><i class="fa-solid fa-shield-halved"></i></span>Upgrade Security
+                    </a>
+                    <a href="index.html#service-facilities">
+                        <span class="service-icon"><i class="fa-solid fa-building"></i></span>Upgrade Facilities
+                    </a>
+                    <a href="index.html#service-digital">
+                        <span class="service-icon"><i class="fa-solid fa-microchip"></i></span>Digital Next
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="index.html#service-jsm">
+                        <span class="service-icon"><i class="fa-solid fa-music"></i></span>JSM Label
+                    </a>
+                    <a href="index.html#service-iyah">
+                        <span class="service-icon"><i class="fa-solid fa-shirt"></i></span>IYAH
+                    </a>
+                </div>
+            </li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+</header>
+
+<!-- ===================== MAIN ===================== -->
+<main>
+
+    <!-- HERO -->
+    <section class="contact-hero">
+        <div class="hero-label reveal reveal-up">
+            <i class="fa-solid fa-circle-dot"></i>
+            Nous contacter
+        </div>
+        <h1 class="reveal reveal-up delay-1">
+            Parlons de votre <span>projet</span>
+        </h1>
+        <p class="hero-sub reveal reveal-up delay-2">
+            Notre équipe vous répond sous 24h ouvrées. Décrivez votre besoin, nous trouverons la filiale qui correspond.
+        </p>
+        <div class="availability-badges reveal reveal-up" style="transition-delay:0.3s">
+            <div class="badge"><span class="dot"></span> Disponible lun–ven</div>
+            <div class="badge"><i class="fa-solid fa-clock" style="color:var(--rbk-red);font-size:12px"></i> Réponse sous 24h</div>
+            <div class="badge"><i class="fa-solid fa-lock" style="color:var(--rbk-red);font-size:12px"></i> Données sécurisées (RGPD)</div>
+        </div>
+    </section>
+
+    <!-- GRILLE PRINCIPALE -->
+    <section class="contact-section">
+        <div class="contact-grid">
+
+            <!-- ========= COLONNE INFO ========= -->
+            <div class="info-column">
+
+                <!-- Informations de contact -->
+                <div class="info-card reveal reveal-left">
+                    <div class="info-card-header">
+                        <div class="header-icon"><i class="fa-solid fa-building"></i></div>
+                        <h3>Nos coordonnées</h3>
+                    </div>
+                    <div class="info-card-body">
+                        <div class="contact-row">
+                            <div class="row-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="row-content">
+                                <div class="row-sup">Siège social</div>
+                                <div class="row-label">[NUMÉRO] [RUE]</div>
+                                <div class="row-sub">[CODE_POSTAL] [VILLE], France</div>
+                            </div>
+                        </div>
+
+                        <a href="tel:+33XXXXXXXXX" class="contact-row">
+                            <div class="row-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="row-content">
+                                <div class="row-sup">Téléphone</div>
+                                <div class="row-label">+33 X XX XX XX XX</div>
+                                <div class="row-sub">Appel direct (mobile et fixe)</div>
+                            </div>
+                        </a>
+
+                        <a href="mailto:contact@rbk-groupe.fr" class="contact-row">
+                            <div class="row-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="row-content">
+                                <div class="row-sup">Email</div>
+                                <div class="row-label">contact@rbk-groupe.fr</div>
+                                <div class="row-sub">Réponse sous 24h ouvrées</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Horaires -->
+                <div class="info-card reveal reveal-left delay-1">
+                    <div class="info-card-header">
+                        <div class="header-icon"><i class="fa-regular fa-clock"></i></div>
+                        <h3>Horaires d'ouverture</h3>
+                    </div>
+                    <div class="info-card-body">
+                        <div class="open-now-badge">
+                            <span class="dot"></span> Ouvert en ce moment
+                        </div>
+                        <div class="hours-grid">
+                            <span class="hours-day">Lundi</span>
+                            <span class="hours-time">09:00 – 18:00</span>
+                            <span class="hours-day">Mardi</span>
+                            <span class="hours-time">09:00 – 18:00</span>
+                            <span class="hours-day">Mercredi</span>
+                            <span class="hours-time">09:00 – 18:00</span>
+                            <span class="hours-day">Jeudi</span>
+                            <span class="hours-time">09:00 – 18:00</span>
+                            <span class="hours-day">Vendredi</span>
+                            <span class="hours-time">09:00 – 17:00</span>
+                            <div class="hours-separator"></div>
+                            <span class="hours-day">Samedi</span>
+                            <span class="hours-time hours-closed">Fermé</span>
+                            <span class="hours-day">Dimanche</span>
+                            <span class="hours-time hours-closed">Fermé</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte -->
+                <div class="info-card reveal reveal-left delay-2">
+                    <div class="info-card-header">
+                        <div class="header-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3>Localisation</h3>
+                    </div>
+                    <div class="info-card-body" style="padding: 16px;">
+                        <div class="map-container">
+                            <!-- Remplacez les coordonnées ci-dessous par celles de votre adresse réelle -->
+                            <iframe
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=2.3322,48.8566,2.3522,48.8666&layer=mapnik&marker=48.8616,2.3422"
+                                allowfullscreen
+                                loading="lazy"
+                                title="Localisation RBK Groupe"
+                                aria-label="Carte de localisation du siège RBK Groupe">
+                            </iframe>
+                            <!-- Lien itinéraire Google Maps — remplacer les coordonnées -->
+                            <a
+                                href="https://www.google.com/maps/dir/?api=1&destination=48.8616,2.3422"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="map-overlay-btn"
+                                aria-label="Ouvrir l'itinéraire dans Google Maps">
+                                <i class="fa-solid fa-diamond-turn-right"></i> Itinéraire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /info-column -->
+
+            <!-- ========= COLONNE FORMULAIRE ========= -->
+            <div class="form-column reveal reveal-right">
+                <div class="form-card">
+
+                    <div class="form-card-header">
+                        <h2>Envoyer un message</h2>
+                        <p>Tous les champs marqués <span style="color:var(--rbk-red)">*</span> sont obligatoires.</p>
+                    </div>
+
+                    <div class="form-card-body">
+
+                        <!-- Sujet rapide -->
+                        <div class="form-group">
+                            <label>Sujet de votre demande</label>
+                            <div class="subject-chips" id="subjectChips" role="group" aria-label="Sujet de la demande">
+                                <button type="button" class="chip" data-value="Devis">💼 Devis</button>
+                                <button type="button" class="chip" data-value="Partenariat">🤝 Partenariat</button>
+                                <button type="button" class="chip" data-value="Renseignement">ℹ️ Renseignement</button>
+                                <button type="button" class="chip" data-value="Recrutement">👤 Recrutement</button>
+                                <button type="button" class="chip" data-value="Autre">✦ Autre</button>
+                            </div>
+                        </div>
+
+                        <!-- Formulaire -->
+                        <form id="contactForm" novalidate>
+
+                            <!-- HONEYPOT (anti-bot, invisible pour les humains) -->
+                            <div class="hp-field" aria-hidden="true">
+                                <label for="username_verification">Ne pas remplir ce champ</label>
+                                <input
+                                    type="text"
+                                    id="username_verification"
+                                    name="username_verification"
+                                    autocomplete="off"
+                                    tabindex="-1"
+                                    aria-hidden="true">
+                            </div>
+
+                            <input type="hidden" id="selected_subject" name="subject" value="">
+
+                            <!-- Nom + Prénom -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nom">Nom <span class="required-star">*</span></label>
+                                    <input type="text" id="nom" name="nom" placeholder="Dupont" autocomplete="family-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="prenom">Prénom <span class="required-star">*</span></label>
+                                    <input type="text" id="prenom" name="prenom" placeholder="Jean" autocomplete="given-name" required>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="email">Adresse e-mail <span class="required-star">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="jean.dupont@exemple.fr" autocomplete="email" required>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label for="message">Votre message <span class="required-star">*</span></label>
+                                <textarea id="message" name="message" placeholder="Décrivez votre projet, besoin ou question…" required></textarea>
+                            </div>
+
+                            <!-- Checkbox RGPD + humanité -->
+                            <div class="checkbox-group" id="checkboxGroup">
+                                <input
+                                    type="checkbox"
+                                    id="human_validate"
+                                    name="human_validate"
+                                    value="1"
+                                    required>
+                                <label for="human_validate">
+                                    Je certifie être un humain et j'accepte que mes données personnelles soient traitées par RBK Groupe dans le seul cadre de ma demande de contact, conformément à notre
+                                    <a href="confidentialite.html" target="_blank">Politique de confidentialité</a>.
+                                </label>
+                            </div>
+
+                            <!-- Retour formulaire -->
+                            <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite">
+                                <i class="fa-solid fa-circle-check" id="feedbackIcon"></i>
+                                <span id="feedbackMessage"></span>
+                            </div>
+
+                            <!-- Submit -->
+                            <button type="submit" class="btn-submit" id="submitBtn">
+                                <div class="spinner"></div>
+                                <span class="btn-text">
+                                    <i class="fa-solid fa-paper-plane"></i> &nbsp;Envoyer le message
+                                </span>
+                            </button>
+
+                            <div class="form-helper">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                Données chiffrées — jamais revendues à des tiers
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /form-column -->
+
+        </div><!-- /contact-grid -->
+    </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-left-content">
+            <div class="footer-about-box">
+                <h4>À propos</h4>
+                <p>Le groupe RBK fédère cinq entités complémentaires : sécurité privée, maintenance de bâtiments, ingénierie digitale, accompagnement culturel et mode urbaine — toutes portées par les mêmes valeurs d'excellence et de réactivité.</p>
+                    <p>Culture d'entreprise axée sur l'excellence opérationnelle, la réactivité technologique et la performance de nos équipes terrain.</p>
+            </div>
+        </div></div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 RBK GROUPE. Tous droits réservés.</p>
+        <p>Portail Institutionnel Officiel.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<!-- ===================== JAVASCRIPT ===================== -->
+<script>
+    /* --- Hamburger mobile --- */
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('main-nav');
+    hamburger.addEventListener('click', () => {
+        const open = hamburger.classList.toggle('active');
+        nav.classList.toggle('open', open);
+        hamburger.setAttribute('aria-expanded', open);
+    });
+
+    /* --- Dropdown filiales (mobile tap) --- */
+    const dropdown = document.getElementById('servicesDropdown');
+    if (dropdown) {
+        const dLink = dropdown.querySelector('a');
+        dLink.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                dropdown.classList.toggle('open');
+            }
+        });
+        document.addEventListener('click', (e) => {
+            if (!dropdown.contains(e.target)) dropdown.classList.remove('open');
+        });
+    }
+
+    /* --- Sujet (chips) --- */
+    const chips = document.querySelectorAll('.chip');
+    const hiddenSubject = document.getElementById('selected_subject');
+    chips.forEach(chip => {
+        chip.addEventListener('click', () => {
+            chips.forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            hiddenSubject.value = chip.dataset.value;
+        });
+    });
+
+    /* --- Validation côté client --- */
+    function validateForm() {
+        let valid = true;
+        const fields = [
+            { el: document.getElementById('nom'), test: v => v.trim().length >= 2 },
+            { el: document.getElementById('prenom'), test: v => v.trim().length >= 2 },
+            { el: document.getElementById('email'), test: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) },
+            { el: document.getElementById('message'), test: v => v.trim().length >= 10 },
+        ];
+
+        fields.forEach(({ el, test }) => {
+            if (!test(el.value)) {
+                el.classList.add('is-invalid');
+                valid = false;
+            } else {
+                el.classList.remove('is-invalid');
+            }
+            el.addEventListener('input', () => {
+                if (test(el.value)) el.classList.remove('is-invalid');
+            }, { once: false });
+        });
+
+        const checkbox = document.getElementById('human_validate');
+        const checkboxGroup = document.getElementById('checkboxGroup');
+        if (!checkbox.checked) {
+            checkboxGroup.classList.add('is-invalid');
+            valid = false;
+        } else {
+            checkboxGroup.classList.remove('is-invalid');
+        }
+        checkbox.addEventListener('change', () => {
+            if (checkbox.checked) checkboxGroup.classList.remove('is-invalid');
+        });
+
+        return valid;
+    }
+
+    /* --- Affichage du feedback --- */
+    function showFeedback(type, message) {
+        const fb = document.getElementById('formFeedback');
+        const icon = document.getElementById('feedbackIcon');
+        const msg = document.getElementById('feedbackMessage');
+
+        fb.classList.remove('show', 'success', 'error');
+        void fb.offsetWidth; // reset animation
+
+        icon.className = type === 'success'
+            ? 'fa-solid fa-circle-check'
+            : 'fa-solid fa-circle-exclamation';
+        msg.textContent = message;
+        fb.classList.add('show', type);
+
+        fb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    /* --- Soumission AJAX --- */
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        if (!validateForm()) {
+            showFeedback('error', 'Veuillez remplir tous les champs obligatoires correctement.');
+            return;
+        }
+
+        const btn = document.getElementById('submitBtn');
+        btn.classList.add('loading');
+        btn.disabled = true;
+
+        const formData = new FormData(this);
+
+        try {
+            const response = await fetch('contact.php', {
+                method: 'POST',
+                body: formData,
+                headers: { 'X-Requested-With': 'XMLHttpRequest' }
+            });
+
+            const data = await response.json();
+
+            if (data.status === 'success') {
+                showFeedback('success', '✓ Votre message a été envoyé avec succès ! Nous vous répondrons sous 24h ouvrées.');
+                this.reset();
+                chips.forEach(c => c.classList.remove('active'));
+                hiddenSubject.value = '';
+            } else {
+                showFeedback('error', data.message || 'Une erreur est survenue. Veuillez réessayer ou nous contacter directement par téléphone.');
+            }
+
+        } catch (err) {
+            showFeedback('error', 'Impossible de contacter le serveur. Vérifiez votre connexion et réessayez.');
+        } finally {
+            btn.classList.remove('loading');
+            btn.disabled = false;
+        }
+    });
+
+    /* --- Animations au scroll --- */
+    const revealObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    /* --- Retour en haut --- */
+    const backBtn = document.getElementById('backToTop');
+    backBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    window.addEventListener('scroll', () => {
+        backBtn.classList.toggle('visible', window.pageYOffset > 300);
+    });
+
+    /* --- Indicateur horaires (ouvert/fermé) --- */
+    (function updateOpenBadge() {
+        const badge = document.querySelector('.open-now-badge');
+        if (!badge) return;
+        const now = new Date();
+        const day = now.getDay(); // 0=dim, 6=sam
+        const hour = now.getHours();
+        const min = now.getMinutes();
+        const time = hour + min / 60;
+
+        const isWeekday = day >= 1 && day <= 4;
+        const isFriday = day === 5;
+        const isOpen = (isWeekday && time >= 9 && time < 18) || (isFriday && time >= 9 && time < 17);
+
+        if (!isOpen) {
+            badge.style.color = '#f87171';
+            badge.style.background = 'rgba(239,68,68,0.08)';
+            badge.style.borderColor = 'rgba(239,68,68,0.2)';
+            badge.querySelector('.dot').style.background = '#ef4444';
+            badge.querySelector('.dot').style.boxShadow = '0 0 6px #ef4444';
+            badge.lastChild.textContent = ' Actuellement fermé';
+        }
+    })();
+</script>
+
+</body>
+</html>
